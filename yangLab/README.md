@@ -40,12 +40,12 @@ Total length for each chromosome (version hg19) is in
 *5UTR:* un-translated 5' region in all Refseq.
 *3UTR:* un-translated 3' region in all Refseq.
 *CDS:* all CDS regions.
-*Up2K:* up2k~TSS
-*Gene body:* TSS~TTS for all Refseq genes
+*Up2K:* up2k~TSS.
+*Gene body:* TSS~TTS for all Refseq genes.
 *Proximal region:*10k from all genes, but not in genes.
-*Distal region:* 100k~10k from all genes
+*Distal region:* 100k~10k from all genes.
 *Intergenic region:* 100k away from all gene.
-*nearGeneRegion:* TSS-10k~TTS+10k
+*nearGeneRegion:* TSS-10k~TTS+10k.
 
 *Test 3. Quantification and visualization of gene expression*
 Here is a sequencing file generated from hiseq 2000
