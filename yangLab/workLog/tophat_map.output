@@ -1,0 +1,32 @@
+(env_py2) [liuzhen2018@liyang-svr3 test]$ tophat -o tophat_map -p 8 --transcriptome-index ./hg19_annotation/hg19refGene ./hg19_BWT2_index/hg19_chrom ./trimed/h9_pAplus_1_trimmed.fq
+
+[2018-07-26 20:23:13] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2018-07-26 20:23:13] Checking for Bowtie
+          Bowtie version:     2.2.5.0
+[2018-07-26 20:23:13] Checking for Bowtie index files (transcriptome)..
+[2018-07-26 20:23:13] Checking for Bowtie index files (genome)..
+[2018-07-26 20:23:13] Checking for reference FASTA file
+[2018-07-26 20:23:13] Generating SAM header for ./hg19_BWT2_index/hg19_chrom
+[2018-07-26 20:23:18] Reading known junctions from GTF file
+[2018-07-26 20:23:32] Preparing reads
+     left reads: min. length=20, max. length=75, 4620025 kept reads (605 discarded)
+[2018-07-26 20:25:12] Using pre-built transcriptome data..
+[2018-07-26 20:25:17] Mapping left_kept_reads to transcriptome hg19refGene with Bowtie2
+[2018-07-26 20:28:53] Resuming TopHat pipeline with unmapped reads
+[2018-07-26 20:28:54] Mapping left_kept_reads.m2g_um to genome hg19_chrom with Bowtie2
+[2018-07-26 20:32:25] Mapping left_kept_reads.m2g_um_seg1 to genome hg19_chrom with Bowtie2 (1/3)
+[2018-07-26 20:33:25] Mapping left_kept_reads.m2g_um_seg2 to genome hg19_chrom with Bowtie2 (2/3)
+[2018-07-26 20:33:52] Mapping left_kept_reads.m2g_um_seg3 to genome hg19_chrom with Bowtie2 (3/3)
+[2018-07-26 20:34:23] Searching for junctions via segment mapping
+[2018-07-26 20:36:31] Retrieving sequences for splices
+[2018-07-26 20:38:16] Indexing splices
+Building a SMALL index
+[2018-07-26 20:38:45] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/3)
+[2018-07-26 20:38:52] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/3)
+[2018-07-26 20:38:59] Mapping left_kept_reads.m2g_um_seg3 to genome segment_juncs with Bowtie2 (3/3)
+[2018-07-26 20:39:05] Joining segment hits
+[2018-07-26 20:41:01] Reporting output tracks
+-----------------------------------------------
+[2018-07-26 20:45:32] A summary of the alignment counts can be found in tophat_map/align_summary.txt
+[2018-07-26 20:45:32] Run complete: 00:22:19 elapsed

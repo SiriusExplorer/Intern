@@ -1,0 +1,11 @@
+(env_py2) [liuzhen2018@liyang-svr3 test]$ tophat -p 8 -G ./hg19_annotation/hg19refGene.gtf --transcriptome-index ./hg19_annotation/hg19refGene ./hg19_BWT2_index/hg19_chrom
+
+[2018-07-26 19:31:10] Building transcriptome files with TopHat v2.1.1
+-----------------------------------------------
+[2018-07-26 19:31:10] Checking for Bowtie
+          Bowtie version:     2.2.5.0
+[2018-07-26 19:31:12] Checking for Bowtie index files (genome)..
+[2018-07-26 19:31:12] Checking for reference FASTA file
+[2018-07-26 19:31:12] Building transcriptome data files ./hg19_annotation/hg19refGene
+[2018-07-26 19:31:32] Building Bowtie index from hg19refGene.fa
+-----------------------------------------------
